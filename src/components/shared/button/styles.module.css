@@ -1,0 +1,96 @@
+/* ------------------------------- Main Btn ------------------------------- */
+
+.mainBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  max-width: 150px;
+  cursor: pointer;
+}
+
+.mainBtnContent {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.primaryBtn {
+  color: white;
+  background-color: var(--primary);
+  border: 1px solid var(--softLight);
+  transition: transform 0.1s ease, width 0.1s ease, height 0.1s ease;
+}
+
+.secondaryBtn {
+  color: var(--txt);
+  background-color: var(--secondary);
+  border: 1px solid var(--softLight);
+  transition: transform 0.1s ease, width 0.1s ease, height 0.1s ease;
+}
+
+.materialIcon {
+  font-size: 20px;
+}
+
+.primaryBtn:hover {
+  background-color: var(--darkPrimary);
+}
+
+.secondaryBtn:hover {
+  background-color: var(--darkSecondary);
+}
+
+.primaryBtn:active {
+  transform: scale(0.95);
+  background-color: var(--activePrimary);
+}
+
+.secondaryBtn:active {
+  transform: scale(0.95);
+  background-color: var(--activeSecondary);
+}
+
+.defaultRadius {
+  border-radius: 12px;
+}
+
+.fullRadius {
+  border-radius: 50%;
+}
+
+/* ------------------------------- Tab Btn ------------------------------- */
+
+.tabBtn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--bg);
+}
+
+.tabBtn:hover {
+  background-color: var(--darkSecondary);
+}
+
+.tabBtn:active {
+  background-color: var(--activeSecondary);
+}
+
+/* ------------------------------- Container Btn ------------------------------- */
+
+.containerBtn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+  transition: transform 0.1s ease, width 0.1s ease, height 0.1s ease;
+}
+
+.containerBtn:active {
+  transform: scale(0.95);
+}

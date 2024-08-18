@@ -1,0 +1,9 @@
+.content {
+  text-align: center;
+}
+
+.content .achievementImg {
+  width: 80%;
+  height: auto;
+  border-radius: 12;
+}

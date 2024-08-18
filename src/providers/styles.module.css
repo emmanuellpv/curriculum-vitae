@@ -1,0 +1,24 @@
+.snackbarProvider {
+  background-color: var(--bg);
+  color: var(--txt);
+  border: 1px solid var(--invertBg);
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.snackbarContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.snackbarMessage {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}

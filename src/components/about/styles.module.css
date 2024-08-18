@@ -1,0 +1,61 @@
+/* ------------------------------- About ------------------------------- */
+
+.title {
+  margin-bottom: 10px;
+}
+
+.aboutBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContent {
+  max-width: 768px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+/* ------------------------------- Item Box ------------------------------- */
+
+.itemBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary);
+  width: 150px;
+  height: 125px;
+  border-radius: 12px;
+}
+
+.itemBox:hover {
+  background-color: var(--darkSecondary);
+}
+
+.itemBox:active {
+  background-color: var(--activeSecondary);
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* ------------------------------- Media queries ------------------------------- */
+
+@media (max-width: 576px) {
+  .aboutContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutContent {
+    grid-template-columns: 1fr;
+  }
+}

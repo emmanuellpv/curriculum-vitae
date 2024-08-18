@@ -1,0 +1,57 @@
+/* ------------------------------- Profile ------------------------------- */
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileInfo {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.profileInfo .fullName {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.profileInfo .profession {
+  font-size: 16px;
+  color: var(--softGray);
+}
+
+.profileActions {
+  padding-top: 16px;
+}
+
+/* ------------------------------- Personal Details ------------------------------- */
+
+.detailInfo {
+  padding: 16px 0;
+}
+
+.detailInfo .title {
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.detailInfo .flag {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  margin-bottom: 5px;
+}
+
+/* ------------------------------- Summary ------------------------------- */
+
+.summaryContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.summaryContent .title {
+  padding-bottom: 10px;
+}

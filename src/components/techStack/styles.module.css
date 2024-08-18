@@ -1,0 +1,50 @@
+/* ------------------------------- Tech Section ------------------------------- */
+
+.stackContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid var(--softLight);
+  border-radius: 12px;
+}
+
+.stackContent .title {
+  padding-bottom: 10px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  background-color: var(--cardBg);
+  color: var(--cardTxt);
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+.card .cardImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}

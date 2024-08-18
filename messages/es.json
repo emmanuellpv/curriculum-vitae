@@ -1,0 +1,180 @@
+{
+  "alert": {
+    "error": "Algo salió mal, intenta de nuevo más tarde.",
+    "notFound": "El recurso no fue encontrado."
+  },
+  "global": {
+    "codeEs": "ES",
+    "codeEn": "EN",
+    "langEs": "Español",
+    "langEn": "Ingles"
+  },
+  "header": {
+    "navbar": {
+      "title": "Emmanuell Pineda Vargas",
+      "downloadBtn": "Descargar",
+      "shareBtn": "Compartir",
+      "darkModeBtn": "Modo oscuro",
+      "lightModeBtn": "Modo claro"
+    },
+    "tabNavigator": {
+      "home": "Inicio",
+      "personalInfo": "Información personal",
+      "techStack": "Tech Stack",
+      "workExperience": "Experiencia laboral",
+      "education": "Educación",
+      "certifications": "Certificaciones & Cursos"
+    }
+  },
+  "home": {
+    "title": "Mi portafolio",
+    "portfolio": {
+      "personalInfo": "Información personal",
+      "techStack": "Tech Stack",
+      "workExperience": "Experiencia laboral",
+      "education": "Educación",
+      "certifications": "Certificaciones & Cursos"
+    }
+  },
+  "personalInfo": {
+    "profile": {
+      "fullName": "Emmanuell Pineda Vargas",
+      "profession": "Desarrollador Software",
+      "linkedInBtn": "LinkedIn"
+    },
+    "details": {
+      "email": {
+        "label": "Correo electrónico",
+        "value": "emmanuellpv@hotmail.com"
+      },
+      "phoneNumber": {
+        "label": "Teléfono",
+        "value": "+506 8890 5255"
+      },
+      "openTo": {
+        "label": "Disponible a",
+        "chips": {
+          "chip1": "Tiempo completo",
+          "chip2": "Trabajo remoto",
+          "chip3": "Trabajo híbrido"
+        }
+      },
+      "languages": {
+        "label": "Lenguajes",
+        "spanish": "Español (Nativo)",
+        "english": "Ingles (Nivel B1)"
+      }
+    },
+    "summary": {
+      "title": "Acerca de mi",
+      "paragraph1": "Soy un apasionado y experimentado desarrollador de software con un fuerte enfoque en React y TypeScript. Con más de dos años de experiencia práctica en ",
+      "paragraph2": ", he liderado y colaborado en diversos proyectos que abarcan desarrollo frontend y backend, gestión de bases de datos y mantenimiento de servidores. Tengo habilidades en tecnologías modernas como React, React Native, Angular, Next.js, Laravel, CodeIgniter, Node.js y servicios de AWS. He demostrado mi capacidad para mejorar la eficiencia de proyectos y el compromiso de los usuarios, evidenciado por un aumento significativo en las interacciones de usuarios en las plataformas desarrolladas.",
+      "paragraph3": "Soy experto en gestionar el ciclo de vida completo de proyectos, desde el diseño inicial hasta el despliegue y mantenimiento, con un historial comprobado de entregar soluciones de alta calidad. Hábil en el uso de bases de datos MySQL y sistemas de control de versiones como Git, estoy comprometido con el aprendizaje continuo y la mejora, y ansioso por contribuir a proyectos innovadores e impactantes.",
+      "link1": "Móvil Multimedia"
+    }
+  },
+  "techStack": {
+    "currentStackTitle": "Actual",
+    "frontEndStackTitle": "Front-End",
+    "backEndStackTitle": "Back-End",
+    "programmingLanguageStackTitle": "Lenguajes de programación",
+    "databaseStackTitle": "Bases de datos",
+    "serviceStackTitle": "Servicios",
+    "versionControlStackTitle": "Control de versiones"
+  },
+  "workExperience": {
+    "movilMultimedia": {
+      "name": "Móvil Multimedia",
+      "period": "Enero 2022 - Presente",
+      "paragraph1": "Móvil Multimedia es una agencia digital que brinda servicios de diseño, programación, y comunicación digital.",
+      "paragraph2": "Responsabilidades",
+      "ul": {
+        "li1": "Desarrollo de la estructura completa de un proyecto (Front-End y Back-end).",
+        "li2": "Desarrollo de sitios web y plataformas administrativas.",
+        "li3": "Desarrollo de aplicaciones móviles en Android y Huawei.",
+        "li4": "Creación de apis para el consumo desde cualquier plataforma.",
+        "li5": "Administración y mantenimiento de bases de datos MySQL.",
+        "li6": "Utilización de servicios AWS y CPanel."
+      },
+      "paragraph3": "Durante mi estadía en Móvil Multimedia he desarrollado múltiples proyectos y he estado involucrado en diversas áreas de desarrollo (Web y Apps).",
+      "paragraph4": "En mi primer año, formé parte del equipo de Desarrollo Web, donde fui responsable de crear páginas promocionales solicitadas por Jaquematte, una subsidiaria de P&G. Cada promoción tenía su propia mecánica, que generalmente incluía el registro de facturas por la compra de productos, participación en sorteos, y juegos interactivos desarrollados en JavaScript.",
+      "paragraph5": "Además, para cada promoción, diseñé y desarrollé una plataforma administrativa que permitía a los usuarios validar facturas y gestionar la mecánica de la promoción con precisión. Usualmente toda página web era desarrollada en CodeIgniter 3 utilizando JQuery y alojada en CPanel.",
+      "paragraph6": "En mi segundo año, forme parte del equipo de Desarrollo Móvil, en esta área fui encargado de crear y dar mantenimiento a múltiples plataformas dentro de las cuales están MyMetApp, AyA, Vip Tucan y Transucoop siendo estas creadas en React Native, estado en área a su vez seguía creando sitios web para plataformas administrativas utilizando Angular, desarrollando proyectos en Back-end para las apis utilizando Laravel o Node, dando mantenimiento a Bases de datos creadas en MySQL y utilizando los servicios de AWS.",
+      "paragraph7": "Actualmente formo parte del área de Desarrollo Web y estoy trabajando en la creación de una plataforma administrativa para PPR (cliente de Móvil Multimedia), dicha plataforma consiste en el control de bienes de una persona por parte de una firma de abogados, la plataforma se está desarrollando en React Vite.",
+      "projects": {
+        "title": "Proyectos",
+        "ppr": {
+          "name": "PPR",
+          "type": "Administrador"
+        },
+        "aya": {
+          "name": "AyA",
+          "type": "Administrador"
+        },
+        "myMetApp": {
+          "name": "My MetApp",
+          "type": "Administrador, App"
+        },
+        "vipTucan": {
+          "name": "VIP Tucan",
+          "type": "App"
+        },
+        "jaquematte": {
+          "name": "Jaquematte",
+          "type": "Páginas web"
+        },
+        "bcr": {
+          "name": "Gire y Gane con el BCR",
+          "type": "Página web"
+        }
+      }
+    }
+  },
+  "education": {
+    "bachelor": {
+      "degree": "Bachillerato en Informática Empresarial",
+      "university": "Universidad de Costa Rica",
+      "period": "2018 - 2021",
+      "degreeAlt": "Título"
+    }
+  },
+  "certifications": {
+    "certification1": {
+      "achievement": "Scrum Fundamentals Certified",
+      "institution": "SFC",
+      "date": "Febrero 2021",
+      "url": "https://www.scrumstudy.com/certification/verify?type=SFC&number=827678"
+    },
+    "certification2": {
+      "achievement": "Xamarin Android Certified",
+      "institution": "Udemy",
+      "date": "Noviembre 2022",
+      "url": "https://www.udemy.com/certificate/UC-361b68d4-e293-4022-96ce-0ce03faed5fe/"
+    },
+    "certification3": {
+      "achievement": "User Experience Design",
+      "institution": "Coursera",
+      "date": "Septiembre 2023",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/9MLHHMNJRJSS"
+    }
+  },
+  "courses": {
+    "course1": {
+      "achievement": "Curso de Ingles",
+      "institution": "Centro Tecnológico de Idiomas",
+      "date": "Diciembre 2023",
+      "url": "courses/english-certified.jpg"
+    }
+  },
+  "modal": {
+    "share": {
+      "title": "Compartir por",
+      "linkedInBtn": "LinkedIn",
+      "facebookBtn": "Facebook",
+      "twitterBtn": "Twitter",
+      "copyLinkBtn": "Copiar enlace",
+      "copiedLink": "Copiado al portapapeles!",
+      "notCopiedLink": "Error al copiar el enlace."
+    }
+  }
+}

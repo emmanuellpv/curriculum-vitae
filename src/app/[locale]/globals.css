@@ -1,0 +1,169 @@
+:root {
+  --bg: #ffffff;
+  --txt: #121417;
+  --defaultLink: #000000;
+  --customLink: #8c52ff;
+  --primary: #1c91f2;
+  --secondary: #f0f2f5;
+  --danger: #f44336;
+  --darkPrimary: #0e76cb;
+  --darkSecondary: #d1d3d7;
+  --darkDanger: #d32f2f;
+  --softLight: #e5e8eB;
+  --softGray: #61788a;
+  --activePrimary: #0b5da0;
+  --activeSecondary: #b1b1b1;
+  --invertBg: #121417;
+  --invertTxt: #e0e0e0;
+  --cardBg: #ededed;
+  --cardTxt: #121417;
+  --borderModal: #888;
+  --shadowOpacity: rgba(0, 0, 0, 0.3);
+}
+
+.dark {
+  --bg: #121417;
+  --txt: #e0e0e0;
+  --defaultLink: #ffffff;
+  --customLink: #a675ff;
+  --primary: #1c91f2;
+  --secondary: #292d31;
+  --darkPrimary: #1a7cd9;
+  --darkSecondary: #3a3f44;
+  --softLight: #2a2d30;
+  --softGray: #8a939b;
+  --activePrimary: #2b7fc4;
+  --activeSecondary: #8a8a8a;
+  --invertBg: #ffffff;
+  --invertTxt: #121417;
+  --shadowOpacity: rgba(255, 255, 255, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--txt);
+}
+
+a {
+  text-decoration: none;
+  color: var(--defaultLink);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-page {
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-section {
+  display: flex;
+  justify-content: center;
+}
+
+.default-container {
+  max-width: 1366px;
+  padding: 40px;
+  flex: 1;
+}
+
+/* Components */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class^="col-"] {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-1 {
+  width: calc(100% / 12);
+}
+
+.col-2 {
+  width: calc(100% / 6);
+}
+
+.col-3 {
+  width: calc((100% / 6) + (100% / 12));
+}
+
+.col-4 {
+  width: calc(100% / 3);
+}
+
+.col-5 {
+  width: calc((100% / 3) + (100% / 12));
+}
+
+.col-6 {
+  width: calc(100% / 2);
+}
+
+.col-7 {
+  width: calc((100% / 2) + (100% / 12));
+}
+
+.col-8 {
+  width: calc((100% / 2) + (100% / 6));
+}
+
+.col-9 {
+  width: calc((100% / 2) + (100% / 6) + (100% / 12));
+}
+
+.col-10 {
+  width: calc((100% / 2) + (100% / 3));
+}
+
+.col-11 {
+  width: calc(100% - (100% / 12));
+}
+
+.col-12 {
+  width: calc(100%);
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: calc(100%);
+  }
+}
+
+.line {
+  border-top: 1px solid var(--softLight);
+  width: 100%;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.custom-link {
+  color: var(--customLink);
+}
+
+.paragraph {
+  padding-bottom: 15px;
+}
+
+.list {
+  padding-left: 40px;
+  padding-bottom: 15px;
+}

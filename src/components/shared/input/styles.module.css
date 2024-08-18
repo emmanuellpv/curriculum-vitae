@@ -1,0 +1,55 @@
+.dropdownWrapper {
+  position: relative;
+  font-size: 14px;
+}
+
+.dropdownBtn {
+  padding: 8px 10px;
+  background-color: var(--secondary);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.1s ease, width 0.1s ease, height 0.1s ease;
+}
+
+.dropdownMenu {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px 0;
+  background-color: var(--secondary);
+  border-radius: 12px;
+  opacity: 0.2;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.3s ease;
+  z-index: 10;
+}
+
+.dropdownMenu.open {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.dropdownMenu .item {
+  padding: 8px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdownMenu .item:hover {
+  background-color: var(--darkSecondary);
+}
+
+.dropdownMenu .item.active {
+  font-weight: bold;
+}
+
+.dropdownBtn:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,134 @@
+/* ------------------------------- Header ------------------------------- */
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid var(--softLight);
+  z-index: 10;
+}
+
+/* ------------------------------- Navbar ------------------------------- */
+
+.navbar {
+  background-color: var(--bg);
+  min-height: 65px;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.leftSide {
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.rightSide .desktopMode {
+  display: flex;
+  column-gap: 5px;
+}
+
+.rightSide .mobileMode {
+  display: none;
+  position: sticky;
+  top: 12px;
+  right: 40px;
+  column-gap: 5px;
+  z-index: 10;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+
+/* ------------------------------- Tabs ------------------------------- */
+
+.tabContainer {
+  position: relative;
+}
+
+.tabActions {
+  width: 100%;
+  display: flex;
+}
+
+.tabIndicator {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background-color: var(--primary);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+/* ------------------------------- Sidenav ------------------------------- */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: var(--bg);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  display: block;
+  text-decoration: none;
+  color: var(--softGray);
+  padding: 8px 8px 8px 32px;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.sidenav a.active {
+  color: var(--darkPrimary);
+}
+
+.sidenav a:hover {
+  color: var(--primary);
+}
+
+.sidenav .actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 15px;
+}
+
+.sidenavOpen {
+  width: 100%;
+}
+
+/* ------------------------------- Media queries ------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .rightSide .desktopMode {
+    display: none;
+  }
+
+  .rightSide .mobileMode {
+    display: flex;
+  }
+
+  .tabContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sidenav a {
+    font-size: 18px;
+  }
+}
