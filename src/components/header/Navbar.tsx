@@ -28,7 +28,8 @@ export const Navbar: React.FC<NavbarProps> = ({ locale }) => {
    */
   const handleDownload = async () => {
     try {
-      const path = '/curriculum.pdf';
+      const path =
+        locale === 'en' ? '/curriculum-en.pdf' : '/curriculum-es.pdf';
       const response = await fetch(path);
 
       if (!response.ok) throw new Error(t('alert.notFound'));
